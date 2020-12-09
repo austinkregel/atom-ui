@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6060 -c .storybook"
+    "storybook": "npx start-storybook -p 6060 -c .storybook"
   },
   "repository": {
     "type": "git",
