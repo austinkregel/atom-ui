@@ -1,0 +1,35 @@
+{
+  "name": "atom-ui",
+  "version": "0.0.1",
+  "description": "An opinionated UI/UX focused library powered by TailwindCSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6060 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinkregel/atom-ui.git"
+  },
+  "keywords": [
+    "atom-ui",
+    "ui",
+    "ux",
+    "nlp",
+    "tailwindcss",
+    "tailwind",
+    "ui",
+    "library"
+  ],
+  "author": "Austin Kregel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austinkregel/atom-ui/issues"
+  },
+  "homepage": "https://github.com/austinkregel/atom-ui#readme",
+  "dependencies": {
+    "compromise": "^13.7.0",
+    "storybook": "^6.1.10",
+    "tailwindcss": "^2.0.1"
+  }
+}
