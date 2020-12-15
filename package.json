@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "npx start-storybook -p 6060 -c .storybook"
+    "storybook": "start-storybook -p 6060 -c .storybook"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
   },
   "homepage": "https://github.com/austinkregel/atom-ui#readme",
   "dependencies": {
+    "@storybook/cli": "^6.1.11",
+    "@storybook/react": "^6.1.11",
     "compromise": "^13.7.0",
     "storybook": "^6.1.10",
     "tailwindcss": "^2.0.1"
