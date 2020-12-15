@@ -1,7 +1,10 @@
 import React, {useEffect, useState} from "react";
-import config from "../config";
 import compromise from './compromise';
 const caseChange = (word) => word[0].toUpperCase() + word.slice(1, word.length)
+
+const config = {
+    primaryColor: 'blue'
+}
 
 export const formatTheButtonToBeGrammaticallyCorrect = (text, { busy, valid, success }) => {
     const tense = busy && valid ? "Gerund"
