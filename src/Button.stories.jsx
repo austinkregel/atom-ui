@@ -1,12 +1,13 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import Button from "./AtomButton";
+import "../node_modules/tailwindcss/dist/tailwind.css";
 
 storiesOf("Shared|Buttons", module)
     .add("buttons", () => {
         return (
             <div className={"flex flex-wrap m-4"}>
-                <div className="text-lx font-bold text-gray-600 mb-2">
+                <div className="text-lx font-bold text-gray-200 mb-2">
                     Upload
                 </div>
                 <div className="w-full flex flex-wrap">
@@ -42,7 +43,7 @@ storiesOf("Shared|Buttons", module)
                     />
                 </div>
 
-                <div className="text-lx font-bold mt-4 text-gray-600 mb-2">
+                <div className="text-lx font-bold mt-4 text-gray-200 mb-2">
                     Save
                 </div>
                 <div className="w-full flex flex-wrap">
@@ -71,8 +72,8 @@ storiesOf("Shared|Buttons", module)
                     />
                 </div>
 
-                <div className="text-lx font-bold mt-4 text-gray-600 mb-2">
-                    save dynamic campaign
+                <div className="text-lx font-bold mt-4 text-gray-200 mb-2">
+                    Save dynamic campaign
                 </div>
                 <div className="w-full flex flex-wrap">
                     <Button
@@ -101,7 +102,7 @@ storiesOf("Shared|Buttons", module)
                 </div>
 
 
-                <div className="text-lx font-bold mt-4 text-gray-600 mb-2">
+                <div className="text-lx font-bold mt-4 text-gray-200 mb-2">
                     Log in
                 </div>
                 <div className="w-full flex flex-wrap">
@@ -135,36 +136,3 @@ storiesOf("Shared|Buttons", module)
             </div>
         );
     })
-    .add("default", () => {
-        return (
-            <Button
-                onClick={() => {}}
-                buttonText={"Load"}
-                busy={true}
-                disabled={true}
-                valid={true}
-            />
-        );
-    })
-    .add("secondary", () => {
-        return (
-            <Button
-                onClick={() => {}}
-                buttonText={"Load"}
-                busy={true}
-                disabled={true}
-                valid={true}
-            />
-        );
-    })
-    .add("disabled", () => {
-        return (
-            <Button
-                onClick={() => {}}
-                buttonText={"Load"}
-                busy={true}
-                disabled={true}
-                valid={true}
-            />
-        );
-    });
